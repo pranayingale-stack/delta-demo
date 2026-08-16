@@ -1,2 +1,2 @@
-# delta-demo
+# DJSCSI_TASK
 This is a demo for git and github class
