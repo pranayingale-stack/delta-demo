@@ -1,2 +1,2 @@
 # DJSCSI_TASK
-This is a demo for git and github class
+This is my task for the recruitment
