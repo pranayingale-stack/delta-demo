@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OVERHACK — 24hr Build Hackathon</title>
+<meta name="description" content="OVERHACK: a 24-hour sandbox-build hackathon. Craft your idea, block by block.">
+
+<!-- Fonts: a blocky pixel display face + a clean readable body face -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top"><span class="logo-block" aria-hidden="true"></span>OVERHACK</a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#judges">Judges</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="#register" class="btn gold" style="font-size:11px; padding:12px 16px;">Join the Server</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-clouds" aria-hidden="true">
+      <div class="cloud cloud1"></div>
+      <div class="cloud cloud2"></div>
+      <div class="cloud cloud3"></div>
+    </div>
+    <div class="hero-blocks" id="heroBlocks" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <p class="eyebrow"><span class="chip"></span>DJCSI PRESENTS</p>
+      <h1>Craft your idea, <span class="hi">block by block.</span></h1>
+      <p class="sub">A 24-hour sandbox-build hackathon. Spawn with an idea, mine through the night, and ship something worth placing on the leaderboard.</p>
+      <div class="hero-cta">
+        <a href="#register" class="btn">Join the Server ▸</a>
+        <a href="#about" class="btn outline">Explore the World</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="num">24h</span><span class="lbl">Non-stop build</span></div>
+        <div class="stat"><span class="num">₹1.5L</span><span class="lbl">Prize pool</span></div>
+        <div class="stat"><span class="num">4</span><span class="lbl">Tracks open</span></div>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">▾ scroll to spawn ▾</div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="reveal">
+        <p class="eyebrow"><span class="chip"></span>ABOUT THE HACK</p>
+        <h2 class="section-title">One world. Every builder starts on flat ground.</h2>
+        <p class="lede">OVERHACK is a 24-hour hackathon for students who'd rather build than pitch slideware. You get a blank world, a stack of tools, and one night to turn a raw idea into something that runs. No pre-built kits, no shortcuts — just you, your team, and the crafting table.</p>
+        <ul class="points">
+          <li><span class="tick">✓</span> Open to all skill levels — solo or squads of up to 4</li>
+          <li><span class="tick">✓</span> Mentors roam the map all night to help you respawn from bugs</li>
+          <li><span class="tick">✓</span> Build on any stack — web, mobile, hardware, or game</li>
+          <li><span class="tick">✓</span> Judged on craft, not just concept</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="craft-panel">
+          <div class="craft-grid">
+            <div class="craft-slot"><div class="icon" style="background:var(--grass);"></div></div>
+            <div class="craft-slot"><div class="icon" style="background:var(--dirt);"></div></div>
+            <div class="craft-slot"><div class="icon" style="background:var(--stone);"></div></div>
+            <div class="craft-slot"><div class="icon" style="background:var(--diamond);"></div></div>
+            <div class="craft-arrow">➜</div>
+            <div class="craft-output"><div class="icon" style="background:var(--gold);"></div></div>
+          </div>
+          <p class="mono" style="color:#f4ecd8; font-size:20px; margin:18px 0 0; text-align:center;">idea + code + coffee + time = shipped</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRIZE + SPONSORS ============ -->
+  <section class="prize" id="prizes">
+    <div class="container">
+      <p class="eyebrow"><span class="chip"></span>LOOT TABLE</p>
+      <h2 class="section-title">₹1,50,000 in prizes</h2>
+      <p class="lede" style="color:#c6d0ea;">Split across three ranks, plus track-specific loot for the best build in each category.</p>
+
+      <div class="prize-cards reveal-stagger">
+        <div class="prize-card gold">
+          <div class="rank">1st Place</div>
+          <div class="amount">₹75,000</div>
+          <p>Top overall build, judged on execution, creativity, and impact.</p>
+        </div>
+        <div class="prize-card silver">
+          <div class="rank">2nd Place</div>
+          <div class="amount">₹45,000</div>
+          <p>Runner-up build with strong technical depth.</p>
+        </div>
+        <div class="prize-card bronze">
+          <div class="rank">3rd Place</div>
+          <div class="amount">₹30,000</div>
+          <p>Third-place build, plus swag for the whole team.</p>
+        </div>
+      </div>
+
+      <div class="sponsor-row reveal">
+        <h3>WORLD SPONSORED BY</h3>
+        <div class="sponsor-track">
+          <div class="sponsor-chip"><span class="dot" style="background:var(--grass);"></span>BlockWorks</div>
+          <div class="sponsor-chip"><span class="dot" style="background:var(--diamond);"></span>OreLabs</div>
+          <div class="sponsor-chip"><span class="dot" style="background:var(--gold);"></span>PixelForge</div>
+          <div class="sponsor-chip"><span class="dot" style="background:var(--redstone);"></span>RedstoneCo</div>
+          <div class="sponsor-chip"><span class="dot" style="background:var(--stone);"></span>StackYard</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="timeline" id="timeline">
+    <div class="container">
+      <p class="eyebrow"><span class="chip"></span>THE MAP</p>
+      <h2 class="section-title">24 hours, in order</h2>
+      <p class="lede">The path from spawn to submission — each waypoint is a fixed checkpoint, not a suggestion.</p>
+
+      <div class="path reveal-stagger">
+        <div class="path-item milestone">
+          <div class="path-time">Day 1 · 9:00 AM</div>
+          <div class="path-title">Spawn — Opening ceremony</div>
+          <div class="path-desc">Rules, tracks, and team check-in. Grab your starter kit and claim a table.</div>
+        </div>
+        <div class="path-item">
+          <div class="path-time">Day 1 · 10:00 AM</div>
+          <div class="path-title">Hacking begins</div>
+          <div class="path-desc">The clock starts. Idea lock-in by 11 AM — no re-rolling your concept after that.</div>
+        </div>
+        <div class="path-item">
+          <div class="path-time">Day 1 · 4:00 PM</div>
+          <div class="path-title">Mentor rounds</div>
+          <div class="path-desc">Mentors do table-to-table rounds for debugging and direction checks.</div>
+        </div>
+        <div class="path-item milestone">
+          <div class="path-time">Day 1 · 11:00 PM</div>
+          <div class="path-title">Midpoint checkpoint</div>
+          <div class="path-desc">Show a working slice to a judge to stay on the leaderboard.</div>
+        </div>
+        <div class="path-item">
+          <div class="path-time">Day 2 · 3:00 AM</div>
+          <div class="path-title">Night shift snacks + mini-challenges</div>
+          <div class="path-desc">Fuel stop. Optional side-quests for bonus points while you debug.</div>
+        </div>
+        <div class="path-item milestone">
+          <div class="path-time">Day 2 · 9:00 AM</div>
+          <div class="path-title">Hacking ends — submissions lock</div>
+          <div class="path-desc">Push your final commit. Late pushes don't count.</div>
+        </div>
+        <div class="path-item milestone">
+          <div class="path-time">Day 2 · 11:00 AM</div>
+          <div class="path-title">Judging + closing ceremony</div>
+          <div class="path-desc">Demo your build to the judging panel, then loot table results go live.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JUDGES ============ -->
+  <section class="judges" id="judges">
+    <div class="container">
+      <p class="eyebrow"><span class="chip"></span>NPCs OF NOTE</p>
+      <h2 class="section-title">Judges &amp; mentors</h2>
+      <p class="lede" style="color:#5a4520;">Builders and engineers who've shipped for a living — here to grade the craft, not the pitch deck.</p>
+
+      <div class="judge-grid reveal-stagger">
+        <div class="judge-card"><div class="judge-avatar"></div><div class="judge-name">Aarav Mehta</div><div class="judge-role">Senior Engineer, OreLabs</div></div>
+        <div class="judge-card"><div class="judge-avatar"></div><div class="judge-name">Sana Kapoor</div><div class="judge-role">Design Lead, PixelForge</div></div>
+        <div class="judge-card"><div class="judge-avatar"></div><div class="judge-name">Rohan Desai</div><div class="judge-role">Founder, StackYard</div></div>
+        <div class="judge-card"><div class="judge-avatar"></div><div class="judge-name">Ishita Rao</div><div class="judge-role">DevRel, RedstoneCo</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RULES ============ -->
+  <section class="rules" id="rules">
+    <div class="container">
+      <p class="eyebrow"><span class="chip"></span>SURVIVAL GUIDE</p>
+      <h2 class="section-title">Rules &amp; eligibility</h2>
+
+      <div class="rules-grid reveal-stagger">
+        <div class="rule-card">
+          <h4><span class="ico"></span>Who can join</h4>
+          <p>Open to all current undergrad and postgrad students. Teams of 1–4. Bring a valid student ID.</p>
+        </div>
+        <div class="rule-card">
+          <h4><span class="ico"></span>Original builds only</h4>
+          <p>Start from scratch at kickoff. Pre-built projects, templates as your whole submission, or resubmitted past projects are disqualified.</p>
+        </div>
+        <div class="rule-card">
+          <h4><span class="ico"></span>Open toolset</h4>
+          <p>Any language, framework, or hardware is fair game. Public libraries, APIs, and AI coding tools are allowed — be ready to explain what you used and why.</p>
+        </div>
+        <div class="rule-card">
+          <h4><span class="ico"></span>Submission</h4>
+          <p>Public GitHub repo with a clear README, plus a 3-minute demo at closing ceremony. Late submissions are not judged.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <p class="eyebrow"><span class="chip"></span>CRAFTING GUIDE</p>
+      <h2 class="section-title">Frequently asked questions</h2>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Do I need a team to register?<span class="slot">+</span></button>
+          <div class="faq-a"><p>No — you can register solo and we'll help you form a team at kickoff, or you can register as a full team of up to 4.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Is there a registration fee?<span class="slot">+</span></button>
+          <div class="faq-a"><p>OVERHACK is free to attend for all registered students. Meals and a starter kit are included.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Can beginners take part?<span class="slot">+</span></button>
+          <div class="faq-a"><p>Yes. Roughly a third of last year's teams were first-time hackers. Mentors are there specifically to help you get unstuck.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">What should I bring?<span class="slot">+</span></button>
+          <div class="faq-a"><p>Your laptop, charger, student ID, and anything you need to stay awake for 24 hours. We'll handle food, wifi, and desk space.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Is overnight access allowed?<span class="slot">+</span></button>
+          <div class="faq-a"><p>Yes, the venue stays open the full 24 hours with security on-site. A quiet rest zone is available if you need to nap.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REGISTER ============ -->
+  <section class="register" id="register">
+    <div class="container">
+      <p class="eyebrow" style="justify-content:center; color:var(--diamond);"><span class="chip" style="background:var(--diamond);"></span>LAST STEP</p>
+      <h2>Ready to spawn in?</h2>
+      <p class="lede">Registration takes under a minute. Slots are first-come, first-served — the server has a cap.</p>
+
+      <form class="signup" id="signupForm" novalidate>
+        <div class="field">
+          <label for="fname">Full name</label>
+          <input type="text" id="fname" name="fname" required placeholder="Steve Alex">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@college.edu">
+        </div>
+        <div class="field">
+          <label for="team">Team name (optional)</label>
+          <input type="text" id="team" name="team" placeholder="The Ender Dragons">
+        </div>
+        <div class="field">
+          <label for="track">Track</label>
+          <select id="track" name="track">
+            <option>Web / App</option>
+            <option>AI / ML</option>
+            <option>Hardware</option>
+            <option>Game Dev</option>
+            <option>Open track — surprise us</option>
+          </select>
+        </div>
+        <button type="submit" class="btn gold">Join the Server ▸</button>
+        <div class="success-msg" id="successMsg">✔ You've spawned in! Check your email for the world seed.</div>
+        <p class="form-note">This form is a front-end preview only — no data is sent anywhere yet.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <a class="brand" href="#top" style="color:#fff;"><span class="logo-block" aria-hidden="true"></span>OVERHACK</a>
+    <p>A 24-hour hackathon by DJCSI · Built block by block.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
