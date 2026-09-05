@@ -6,3 +6,5 @@ This is my task for the recruitment
 This is a demo for git and github class
 # task
 this is task for me
+# Spotify clone
+In this repo I created one spotify clone
